@@ -48,9 +48,9 @@ x=sin(2*t);
 subplot(3,2,1);
 plot(x);
 au=xcorr(x,x);
-subplot (3,2,2);
-plot (au);
-v=fft(au);
+subplot(3,2,2);
+plot(au);
+v=fft(au);                                          
 subplot(3,2,3);
 plot(abs(v));
 fw=fft(x);
@@ -59,14 +59,10 @@ plot(fw);
 fw2=(abs(fw)).^2;
 subplot(3,2,5);
 plot(fw2);
-
-
 ```  
 <h2>Output</h2>
-
-<img width="1913" height="1193" alt="image" src="https://github.com/user-attachments/assets/d3d73924-1f75-4a42-96a7-7fd9a2984a55" />
-
-<img width="1280" height="759" alt="WhatsApp Image 2026-06-06 at 7 42 57 PM" src="https://github.com/user-attachments/assets/96b6e60f-03ab-4ff9-8be5-778c2274ac73" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/d3311d91-038f-453f-a636-78ad200fb94f" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/62f41576-9ee9-47e7-a83a-92e7792efcc2" />
 
 <h2>Result</h2>
 
